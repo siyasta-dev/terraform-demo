@@ -1,2 +1,2 @@
 # Summary
-This is just a demo repo which to show basic modularization of terraform as code.
+This is just a demo repo which to show basic modularization of terraform as code using terraform enterprise.
