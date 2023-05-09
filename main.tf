@@ -40,5 +40,5 @@ module "vm" {
   resource_group_location = azurerm_resource_group.example.location
   resource_group_name     = azurerm_resource_group.example.name
   subnet_id               = module.subnet.subnet_id
-  vm_count                = 2
+  vm_count                = var.vm_count
 }

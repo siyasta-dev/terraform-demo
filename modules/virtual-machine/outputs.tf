@@ -1,3 +1,3 @@
 output "vms" {
-  value = azurerm_virtual_machine.main
+  value = [azurerm_virtual_machine.main.*.name]
 }
