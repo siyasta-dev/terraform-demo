@@ -5,6 +5,14 @@ terraform {
       version = "=3.0.0"
     }
   }
+
+  backend "remote" {
+        organization = "siyasta-dev"
+
+        workspaces {
+          name = "terraform-demo"
+        }
+      }
 }
 
 # Configure the Microsoft Azure Provider
