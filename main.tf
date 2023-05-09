@@ -7,12 +7,12 @@ terraform {
   }
 
   backend "remote" {
-        organization = "siyasta-dev"
+    organization = "siyasta-dev"
 
-        workspaces {
-          name = "terraform-demo"
-        }
-      }
+    workspaces {
+      name = "terraform-demo"
+    }
+  }
 }
 
 # Configure the Microsoft Azure Provider

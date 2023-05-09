@@ -8,6 +8,6 @@ variable "location" {
 }
 
 variable "vm_count" {
-  type = number
+  type    = number
   default = 2
 }
